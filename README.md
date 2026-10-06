@@ -73,9 +73,9 @@ La base de datos arbitra la idempotencia. El insert corre en su propia transacci
 
 ```bash
 curl -i -X POST http://localhost:8080/api/payments \
-+  -H 'Content-Type: application/json' \
-+  -H 'Idempotency-Key: payment-demo-001' \
-+  --data '{"amount":125.5,"currency":"PEN","scenario":"LOST_RESPONSE"}'
+  -H 'Content-Type: application/json' \
+  -H 'Idempotency-Key: payment-demo-001' \
+  --data '{"amount":125.5,"currency":"PEN","scenario":"LOST_RESPONSE"}'
 ```
 
 Ejemplo de estado consultado después del 504:
