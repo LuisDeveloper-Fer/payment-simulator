@@ -20,6 +20,10 @@ Proyecto independiente del [Backend Systems Lab de Luis](https://github.com/Luis
 
 **Experimento principal:** Usa LOST_RESPONSE: el servicio guarda APPROVED y devuelve 504. Consulta por clave y repite el mismo request: obtendrás el mismo pago. Después solicita un reverso.
 
+## Probar en Internet
+
+[**Abrir demo interactiva**](https://luisdeveloper-fer.github.io/payment-simulator/) · Simulación en navegador, sin backend Java. [Alcance](docs/PUBLIC-DEMO.md).
+
 ## Vista previa
 
 ![Mora · pagos — interfaz Angular](docs/preview.png)
